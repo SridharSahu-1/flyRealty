@@ -1,0 +1,14 @@
+.grid {
+  display: grid;
+  grid-template-columns: repeat(10, minmax(0, 40px));
+  gap: 5px;
+  margin: 10px;
+}
+.gridCell {
+  width: 100%;
+  aspect-ratio: 1;
+  max-height: 40px;
+  max-width: 40px;
+  border-radius: 10px;
+  cursor: pointer;
+}

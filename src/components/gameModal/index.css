@@ -1,0 +1,19 @@
+.gameModal {
+  background-color: #313131;
+  color: white;
+  padding: 20px;
+  height: 250px;
+  width: 300px;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.game_heading {
+  text-align: center;
+}
+.close_btn {
+  padding: 5px 10px;
+  margin-top: 20px;
+}
