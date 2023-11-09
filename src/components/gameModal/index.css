@@ -1,5 +1,6 @@
 .gameModal {
-  background-color: #313131;
+  /* background-color: #313131; */
+  background-color: #201e34;;
   color: white;
   padding: 20px;
   height: 250px;
@@ -16,4 +17,10 @@
 .close_btn {
   padding: 5px 10px;
   margin-top: 20px;
+}
+.red{
+  color: red;
+}
+.green{
+  color: #0de10d;;
 }

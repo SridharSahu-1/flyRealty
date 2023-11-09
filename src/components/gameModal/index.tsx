@@ -16,7 +16,7 @@ export function WinModal() {
       onClose={() => dispatch(resetGameStatus())}
     >
       <div className="gameModal">
-        <h3 className="game_heading">🥳 YOU WON 🥳</h3>
+        <h3 className="game_heading green">🥳 YOU WON 🥳</h3>
         <p>Your Score: {Score}</p>
         <p>Time Taken: {60 - time}Secs</p>
         <button
@@ -42,7 +42,7 @@ export function LossModal() {
       onClose={() => dispatch(resetGameStatus())}
     >
       <div className="gameModal">
-        <h3 className="game_heading">😞 YOU LOSS 😞</h3>
+        <h3 className="game_heading red">😞 YOU LOSS 😞</h3>
         <p>Your Score: {Score}</p>
         <p>Time Taken: {60 - time}Secs</p>
         <p>Better Luck Next Time</p>
